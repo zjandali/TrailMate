@@ -174,19 +174,7 @@ TrailMate is a comprehensive hiking platform that leverages user-contributed dat
 
 ---
 
-## Deployment
 
-### Docker Deployment
-
-1. **Ensure Docker and Docker Compose are installed**.
-
-2. **Build and run the containers**
-
-   ```bash
-   docker-compose up --build
-   ```
-
-   This will start all services defined in the `docker-compose.yml` file.
 
 ### Deployment to AWS
 
