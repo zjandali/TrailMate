@@ -171,20 +171,6 @@ TrailMate is a comprehensive hiking platform that leverages user-contributed dat
 - **Trail Data**: Uses Hiking Project API to fetch trail information.
 - **User Authentication**: Secure authentication using JSON Web Tokens (JWT).
 - **Real-Time Updates**: Implemented using Socket.IO for live trail condition reporting.
-
----
-
-
-
-### Deployment to AWS
-
-- **Frontend**: Deploy to AWS Amplify or host on S3 with CloudFront.
-- **Backend**: Use AWS Elastic Beanstalk or ECS for container orchestration.
-- **Database**: Use AWS DocumentDB or MongoDB Atlas.
-- **Machine Learning Service**: Deploy using AWS ECS or SageMaker.
-
-*(Detailed deployment instructions are available in the [Deployment Guide](deployment_guide.md).)*
-
 ---
 
 ## Contributing
