@@ -1,24 +1,9 @@
-# TrailMate
+**Note**: This project is under active development. Features and instructions may change over time.
 
 TrailMate is a comprehensive hiking platform that leverages user-contributed data, third-party APIs, and machine learning to offer personalized trail recommendations, safety alerts, and real-time updates about trail conditions. The platform includes social features to enhance the hiking experience, creating a community-driven environment for hikers worldwide.
 
-## Table of Contents
 
-- [Features](#features)
-- [Architecture Overview](#architecture-overview)
-- [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
-  - [Machine Learning Service Setup](#machine-learning-service-setup)
-- [Usage](#usage)
-- [APIs and Integrations](#apis-and-integrations)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
----
 
 ## Features
 
@@ -40,22 +25,8 @@ TrailMate is a comprehensive hiking platform that leverages user-contributed dat
 - **Third-Party APIs**: Integration with weather and trail data APIs.
 - **Deployment**: Containerized using Docker, scalable via cloud services like AWS.
 
-![Architecture Diagram](architecture_diagram.png) <!-- Include an actual architecture diagram if available -->
 
----
 
-## Installation
-
-### Prerequisites
-
-- **Node.js** (v14 or higher)
-- **NPM** or **Yarn**
-- **Python** (3.6 or higher) for the machine learning service
-- **MongoDB** database instance
-- **Docker** and **Docker Compose** (optional, for containerization)
-- **API Keys** for third-party services:
-  - **OpenWeatherMap API Key**
-  - **Hiking Project API Key** (or any other trail data API)
 
 ### Backend Setup
 
@@ -173,47 +144,5 @@ TrailMate is a comprehensive hiking platform that leverages user-contributed dat
 - **Real-Time Updates**: Implemented using Socket.IO for live trail condition reporting.
 ---
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the repository**.
-
-2. **Create a new branch** for your feature or bug fix.
-
-   ```bash
-   git checkout -b feature/my-feature
-   ```
-
-3. **Commit your changes**.
-
-   ```bash
-   git commit -m "Description of my feature"
-   ```
-
-4. **Push to your branch**.
-
-   ```bash
-   git push origin feature/my-feature
-   ```
-
-5. **Submit a pull request**.
-
-Please ensure your code follows the project's coding standards and includes appropriate tests.
 
 
-
-## Contact
-
-For questions or support, please contact:
-
-- **Email**: yzjandali@gmail.com
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/trailmate/issues)
-
----
-
-*Happy Hiking with TrailMate!* 🌲🏞️👣
-
----
-
-**Note**: This project is under active development. Features and instructions may change over time.
